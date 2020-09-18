@@ -1,0 +1,40 @@
+---
+  DHT22:
+    PIN: 21
+    FREQUENCY: 0.2
+    T_HYST: 0.01
+    H_HYST: 0.02
+    SERVER_PORT: 12345
+  PIR:
+    PIN: 20
+    FREQUENCY: 0.2
+    SERVER_PORT: 12346
+  SERIAL:
+    DEVICE: /dev/arduino
+    FREQUENCY: 1
+    SPEED: 9600
+    PARITY: N
+    STOPBITS: 1
+    COMMSIZE: 8
+    TIMEOUT: 1
+    SERVER_PORT: 12347
+  SSD1306:
+    PIR_SERVER: localhost
+    PIR_PORT: 12346
+    DHT22_SERVER: localhost
+    DHT22_PORT: 12345
+    SERIAL_SERVER: localhost
+    SERIAL_PORT: 12347
+    FREQUENCY: 0.3
+  INFLUX:
+    PIR_SERVER: localhost
+    PIR_PORT: 12346
+    DHT22_SERVER: localhost
+    DHT22_PORT: 12345
+    SERIAL_SERVER: localhost
+    SERIAL_PORT: 12347
+    HOST: localhost
+    PORT: 8086
+    USER: automation
+    PASSWORD: helloworld
+    DATABASE: sensors
