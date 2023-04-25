@@ -1,4 +1,4 @@
-# Progetto_IOT_2019-2020
+# Progetto IOT 2019-2020
 Progetto per il corso di IOT nell'a.a. 2019/2020.
 ## Traccia del progetto:
 1. Progettazione ed implementazione di framework per l'acquisizione di dati da sensori
